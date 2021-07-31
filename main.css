@@ -1,0 +1,87 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.block1,.block2,.block3{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(241, 241, 241);
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid rgb(187, 177, 177);
+}
+    
+.b1{
+    margin: 5px 0;
+    width: 240px;
+    height: 40px;
+    border: 1px solid rgb(187, 177, 177);
+    border-radius: 5px;
+    background-color: rgb(231, 228, 228);
+    line-height: 40px;
+    padding-left: 10px;
+}
+.text{
+    margin: 5px 0;
+    width: 240px;
+    height: 40px;
+    border: 1px solid rgb(187, 177, 177);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.radio_btn{
+    margin: 8px;
+}
+
+.Add_btn,.Buy_btn{
+    margin: 5px 0;
+    width: 90px;
+    height: 40px;
+    border: 1px solid rgb(187, 177, 177);
+    border-radius: 5px;
+    background-color: rgb(214, 205, 205);
+    
+}
+
+.add_list{
+    line-height: 20px;
+    width: 240px;
+    height: 80px;
+    border: 1px solid rgb(187, 177, 177);
+    border-radius: 5px;
+    background-color: rgb(231, 228, 228);
+    overflow: hidden;
+} 
+
+.modal{
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    background-color: rgb(218, 212, 212);
+    line-height: 200px;
+    text-align: center;
+    display: none;
+}
+
+.uil-times{
+    position: absolute;
+    top: 1%;
+    left: 93%;
+    transform: translate(-50%,-30%);
+    font-size: 25px;
+    color: black;
+}
+
+
+

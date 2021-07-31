@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="block1">
+            <h3>Баланс</h3>
+            <div class="b1 bank">
+                <p></p>
+            </div>
+            <h3>Пиво</h3>
+            <div class="b1 beer">
+                <p></p>
+            </div>
+            <h3>Вино</h3>
+            <div class="b1 vine">
+                <p></p>
+            </div>
+            <h3>Пепсі</h3>
+            <div class="b1 pepsi">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="block2">
+            <form name="f1">
+                <h3>Кількість</h3>
+                <input type="text" class="text">
+                <label for="id1">
+                    <input id="id1" type="radio" name="check" class="radio_btn" value="beer" checked>Пиво
+                </label>
+                <label for="id2">
+                    <input id="id2" type="radio" name="check" class="radio_btn" value="vine">Вино
+                </label>
+                <label for="id3">
+                    <input id="id3" type="radio" name="check" class="radio_btn" value="pepsi">Пепсі
+                </label>
+                <input type="button" class="Add_btn" value="Додати">
+                <div class="add_list"></div>
+                <input type="button" class="Buy_btn" value="Купити">
+            </form>
+        </div>
+
+        <div class="block3"></div>
+        <div class="modal">
+            <h2></h2>
+            <i class="uil uil-times"></i>
+        </div>
+        
+    </div>
+    <script src="shop.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+
+</body>
+
+</html>
